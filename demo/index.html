@@ -29,17 +29,41 @@ ul{
 .list-u-01 li:nth-child(3n){
     margin-right: 0;
 }
+
+.list-u-01:before,
+.list-u-01:after{
+    display: table;
+    content: " ";
+}
+
+.list-u-01:after{
+    clear: both;
+}
 </style>
-<script src="../lib/jquery-1.11.0.js"></script>
+<script src="../lib/jquery-1.10.1.js"></script>
 <script src="../src/jquery.heightEqualizer.js"></script>
 <script>
 jQuery(document).ready(function ($) {
     $(".js-demo-01").heightEqualizer();
+    $(".js-demo-02").heightEqualizer({ groupBy: 3 });
 });
 </script>
 </head>
 <body>
+<h1>jQuery Height Equalizer Demo</h1>
+<h2>Basic</h2>
 <ul class="list-u-01 js-demo-01">
+<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, temporibus, cupiditate, est minus enim maiores pariatur magnam ratione deleniti itaque placeat at error consectetur. Suscipit.</li>
+<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </li>
+<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, temporibus, cupiditate, est minus enim maiores pariatur magnam ratione deleniti </li>
+<li>Lorem ipsum dolor sit amet</li>
+<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, </li>
+<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, temporibus, cupiditate, est minus enim maiores pariatur magnam ratione.</li>
+<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, temporibus.</li>
+<li>Lorem ipsum dolor sit amet, consectetur.</li>
+</ul>
+<h2>Grouping Equalize</h2>
+<ul class="list-u-01 js-demo-02">
 <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, temporibus, cupiditate, est minus enim maiores pariatur magnam ratione deleniti itaque placeat at error consectetur. Suscipit.</li>
 <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </li>
 <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, temporibus, cupiditate, est minus enim maiores pariatur magnam ratione deleniti </li>
