@@ -1,0 +1,15 @@
+{
+  "name": "jQuery.heightEqualizer",
+  "version": "0.1.0",
+  "author": {
+    "name": "Hideki Abe",
+    "email": "hideki.abe@anothersky.pw",
+    "url": "http://www.anothersky.pw/"
+  },
+  "scripts": {
+    "test": "./node_modules/testem/testem.js -l PhantomJS ci"
+  },
+  "devDependencies": {
+    "testem": "~0.6.15"
+  }
+}

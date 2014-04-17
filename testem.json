@@ -1,0 +1,9 @@
+{
+  "framework": "mocha",
+  "src_files": [
+    "lib/jquery-1.10.1.js",
+    "src/jquery.heightEqualizer.js",
+    "test/lib/expect.js",
+    "test/heightEqualizer.js"
+  ]
+}
