@@ -7,9 +7,9 @@
     "url": "http://www.anothersky.pw/"
   },
   "scripts": {
-    "test": "./node_modules/testem/testem.js -l PhantomJS ci"
+    "test": "./node_modules/.bin/mocha-phantomjs test/test.html"
   },
   "devDependencies": {
-    "testem": "~0.6.15"
+    "mocha-phantomjs": "~3.3.2"
   }
 }

@@ -3,3 +3,6 @@ node_js:
   - '0.10'
 script:
   - 'npm test'
+env:
+  - JQUERY_VERSION=2.1.0
+  - JQUERY_VERSION=1.11.0

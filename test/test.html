@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<title>Test</title>
+<title>jQuery Height Equalizer Test</title>
 <link rel="stylesheet" href="lib/mocha.css">
 </head>
 <body>
@@ -10,11 +10,17 @@
 <script src="lib/mocha.js"></script>
 <script src="lib/expect.js"></script>
 <script>mocha.setup('bdd')</script>
-<script src="../lib/jquery-1.10.1.js"></script>
+<script src="lib/load_jquery.js"></script>
 <script src="../src/jquery.heightEqualizer.js"></script>
-<script src="heightEqualizer.js"></script></head>
+<script src="heightEqualizer.js"></script>
 <script>
-mocha.run();
+window.onload = function () {
+    if (window.mochaPhantomJS) {
+        mochaPhantomJS.run();
+    } else {
+        mocha.run();
+    }
+};
 </script>
 </body>
 </html>
