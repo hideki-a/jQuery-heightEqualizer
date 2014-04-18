@@ -10,6 +10,10 @@
     "test": "./node_modules/.bin/mocha-phantomjs test/test.html"
   },
   "devDependencies": {
-    "mocha-phantomjs": "~3.3.2"
+    "mocha-phantomjs": "~3.3.2",
+    "matchdep": "~0.3.0",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt": "~0.4.4",
+    "grunt-contrib-uglify": "~0.4.0"
   }
 }
