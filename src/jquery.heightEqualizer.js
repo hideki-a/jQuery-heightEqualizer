@@ -4,8 +4,8 @@
  * Copyright 2014 Hideki Abe <hideki.abe@anothersky.pw>
  * Released under the MIT license
  *
- * Version: 0.1.0
- * Date: 2014-04-xx
+ * Version: 1.0.0
+ * Date: 2014-04-18
  */
 ;(function ($, window, document, undefined) {
     "use strict";

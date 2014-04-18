@@ -68,6 +68,10 @@ Default: `true`
 
 - [Equalizer](https://github.com/CSS-Tricks/Equalizer)
 
+## Release History
+
+- 2014.04.18 v1.0.0 Initial Release.
+
 ## License
 
 jQuery.heightEqualizer is released under the [MIT license](http://desandro.mit-license.org/).
