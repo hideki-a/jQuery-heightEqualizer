@@ -3,6 +3,10 @@ jQuery-heightEqualizer [![Build Status](https://secure.travis-ci.org/hideki-a/jQ
 
 [MJL.HeightEqualizer](http://www.mitsue.co.jp/knowledge/mjl.html)互換の高さ揃え機能を提供します。jQuery 1.x / 2.xのいずれでも利用できます。
 
+## Demo
+
+* [http://hideki-a.github.io/jQuery-heightEqualizer/demo/](http://hideki-a.github.io/jQuery-heightEqualizer/demo/)
+
 ## Getting Started
 
 [jQuery](http://jquery.com/)とjQuery.heightEqualizerを読み込み、次のように記述すると高さ揃えが実行されます。
